@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    padding: 10px;
+}
+.names-header{
+    background-color: #0e70b1;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.names p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form button{
+    padding: 10px;
+    
+}
+.input-container{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.input-container label{
+    display: block;
+}
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
